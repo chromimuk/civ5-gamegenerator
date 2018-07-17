@@ -1,1 +1,1 @@
-# civ5-gamegenerator
+https://chromimuk.github.io/civ5-gamegenerator/
