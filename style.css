@@ -1,0 +1,93 @@
+/* Font from https://github.com/fvcproductions/nyt-comm */
+@font-face {
+    font-family: 'cheltenham';
+    src: URL('cheltenham-cond-normal-500.woff') format('woff');
+}
+
+body {
+    font-family: 'cheltenham', 'Times New Roman', Times, serif;
+    color: #333;
+    text-align: center;
+    margin: 0;
+}
+div {
+    width: 100%;
+}
+.clear {
+    clear: both;
+}
+
+
+.title {
+    margin-top: 5px;
+}
+
+.subtitle {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    font-size: 0.8em;
+    padding: 2px;
+    box-sizing: border-box;
+}
+.subtitleLeft,
+.subtitleCenter,
+.subtitleRight {
+    float: left;
+}
+.subtitleCenter {
+    width: 60%;
+}
+.subtitleLeft, .subtitleRight {
+    width: 20%;
+}
+
+.headline {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 2em;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #333;
+    box-sizing: border-box;
+}
+
+.results {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #333;
+}
+.resultBox {
+    width: 33%;
+    float: left;
+}
+.resultTitle {
+    font-weight: bold;
+}
+
+.victoryDescriptionBox {
+    margin-top: 10px;
+}
+.victoryDescription {
+    width: 50%;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        width: 80%;
+        max-width: 720px;
+        margin: 0 auto;
+    }
+    .title {
+        font-size: 1.5em;
+    }
+    .subtitle {
+        font-size: 1em;
+    }
+    .headline {
+        font-size: 3em;
+    }
+}
+
+
